@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient( 150deg, rgb(79, 94, 236) , rgb(158, 0, 250));
+    margin-top: 100px;
+}
+.had{
+    position: absolute;
+    font-size: 50px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.container{
+    border: 1px solid white;
+    width: 40%;
+    min-width: 340px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 20px;
+}
+#newtask{
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgb(73, 26, 121);
+}
+#newtask input{
+    width: 76%;
+    height: 45%;
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    border: 2px solid white;
+    padding: 12px;
+    color: black;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    padding-left: 20px;
+    
+}
+#newtask input:focus{
+    outline: none;
+    border-color: blueviolet;
+}
+#newtask button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: rgb(192, 65, 243);
+    border: none;
+    color: white;
+    
+}
+#tasks{
+    background-color: white;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgb(73, 26, 121);
+    width: 100%;
+    position: relative;
+}
+
+#tasks span{
+    color: black;
+    padding-left: 20px;
+}
+#tasks button{
+    position: absolute;
+    left: 94%;
+    border: none;
+    color: rgb(225, 0, 255);
+    
+}
